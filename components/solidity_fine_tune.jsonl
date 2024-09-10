@@ -1,0 +1,26 @@
+{"prompt": "Write a Solidity contract for an ERC20 token with minting, burning, and pausing functionalities."}
+{"prompt": "Write a Solidity smart contract for an ERC721 NFT with metadata URI and minting."}
+{"prompt": "Write a Solidity contract for cross-chain token transfer using LayerZero."}
+{"prompt": "How do I write a Solidity smart contract for managing an ERC1155 NFT marketplace?"}
+{"prompt": "How do I write a Solidity smart contract for a decentralized application (dApp) that interacts with an ERC20 token and includes staking?"}
+{"prompt": "Write a Solidity contract for a governance token with voting and delegation functionalities."}
+{"prompt": "Create a Solidity contract that supports time-locked token vaults."}
+{"prompt": "How do I write a Solidity smart contract that integrates Chainlink price feeds?"}
+{"prompt": "Write a smart contract in Solidity that allows users to swap between two ERC20 tokens."}
+{"prompt": "Write a Solidity smart contract for an NFT auction where users can bid in Ether."}
+{"prompt": "Create a Solidity smart contract for an ERC1155 NFT collection with batch minting and transfers."}
+{"prompt": "How do I implement a reentrancy guard in a Solidity contract for secure withdrawals?"}
+{"prompt": "Write a Solidity smart contract that implements a staking mechanism for ERC20 tokens with rewards."}
+{"prompt": "Create a Solidity contract for a decentralized lottery system where participants can enter with an ERC20 token."}
+{"prompt": "How do I write a Solidity contract to manage a cross-chain bridge for ERC20 token transfers?"}
+{"prompt": "Write a Solidity smart contract to lock and unlock tokens based on a specified condition or event."}
+{"prompt": "Create a Solidity smart contract that enables users to lend and borrow ERC20 tokens."}
+{"prompt": "How do I write a Solidity contract for a multi-signature wallet that requires multiple approvals for transactions?"}
+{"prompt": "Write a Solidity contract that supports dynamic minting fees for an ERC721 NFT."}
+{"prompt": "Create a Solidity smart contract to manage and distribute royalties for NFT sales."}
+{"prompt": "How do I implement flash loan functionality in a Solidity contract for DeFi protocols?"}
+{"prompt": "Write a Solidity contract for an escrow service that holds ERC20 tokens until a condition is met."}
+{"prompt": "How do I create a Solidity contract to generate random numbers for use in a decentralized game?"}
+{"prompt": "Write a Solidity contract for a decentralized exchange (DEX) with liquidity pools and token swaps."}
+{"prompt": "Create a Solidity contract for a decentralized voting system that uses ERC20 tokens for votes."}
+{"prompt": "How do I write a Solidity smart contract that integrates decentralized identity (DID) systems?"}
