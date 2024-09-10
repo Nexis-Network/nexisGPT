@@ -5,7 +5,7 @@ import { getAgent } from "./actions/db"
 
 export const IS_PRODUCTION = process.env.NODE_ENV === "production"
 
-export const APP_URL = IS_PRODUCTION ? (process.env.NEXT_PUBLIC_APP_URL as string) : "http://localhost:3000"
+export const APP_URL = IS_PRODUCTION ? (process.env.NEXT_PUBLIC_APP_URL as string) : "http://localhost:3001"
 export const IPFS_GATEWAY = process.env.NEXT_PUBLIC_IPFS_GATEWAY || "https://gateway.pinata.cloud"
 
 export const DEFAULT_GLOBAL_CONFIG: GlobalConfig = {
@@ -15,7 +15,7 @@ export const DEFAULT_GLOBAL_CONFIG: GlobalConfig = {
 }
 
 export const DEFAULT_AGENT: Agent = {
-  id: "asst_Tgzrzv0VaSgTRMn8ufAULlZG",
+  id: "asst_zL8FJ4j4SVL153GMGyZGXzkv",
   userId: "12901349",
   name: "NexisGPT",
   description: "Develop smart contracts",

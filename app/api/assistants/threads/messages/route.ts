@@ -75,7 +75,7 @@ export async function POST(request: NextRequest) {
     const runStream = openai.beta.threads.runs.stream(threadId, {
       assistant_id: assistantId,
       stream: true,
-      model: "NexisGPT-Turbo"
+      model: "gpt-4o-mini"
     })
 
     // forward run status would stream message deltas

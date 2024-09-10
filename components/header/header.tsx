@@ -1,5 +1,5 @@
 import { auth } from "@/auth"
-import ConnectBtn from '../connect-button'
+import { ConnectButton } from "../connect-button"
 import { ClearHistory } from "@/components/header/clear-history"
 import { LoginButton } from "@/components/header/login-button"
 import { SettingsDropDown } from "@/components/header/settings-drop-down"
@@ -58,7 +58,7 @@ export const Header = async () => {
     <div className="flex items-center justify-center space-x-4">
       <Tooltip>
         <TooltipTrigger asChild>
-          <Badge className={cn("text-xs text-white bg-white/20")}>NexisGPT-Turbo</Badge>
+          <Badge className={cn("text-[12px] text-[#666666] font-light hover:text-white border border-[#171717]bg-[rgb(10, 10, 10)]]")}>NexisGPT-Turbo</Badge>
         </TooltipTrigger>
         <TooltipContent>Using the latest NexisGPT-Turbo</TooltipContent>
       </Tooltip>
@@ -66,7 +66,7 @@ export const Header = async () => {
   </div>
 
   <div className="flex items-center justify-end space-x-4">
-    <ConnectBtn />
+    <ConnectButton />
     <SettingsDropDown />
   </div>
 </header>

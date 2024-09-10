@@ -45,7 +45,7 @@ export const AgentCard = ({ agent, className }: AgentCardProps) => {
                 }}
                 className={cn(
                   buttonVariants({ size: "sm", variant: "secondary" }),
-                  "absolute left-0 top-4 size-8 rounded-full border p-0 sm:left-4"
+                  "absolute left-0 top-4 size-8 rounded-full border  sm:left-4"
                 )}
               >
                 <IconHome />
