@@ -17,7 +17,9 @@ export const FULL_RPC_URLS: Record<Chain["id"], string> = {
   11155111: `https://eth-sepolia.g.alchemy.com/v2/${process.env.NEXT_PUBLIC_ALCHEMY_API_KEY}`,
   80002: `https://polygon-amoy.g.alchemy.com/v2/${process.env.NEXT_PUBLIC_ALCHEMY_API_KEY}`,
   84532: `https://base-sepolia.g.alchemy.com/v2/${process.env.NEXT_PUBLIC_ALCHEMY_API_KEY}`,
-  421614: `https://arb-sepolia.g.alchemy.com/v2/${process.env.NEXT_PUBLIC_ALCHEMY_API_KEY}`
+  421614: `https://arb-sepolia.g.alchemy.com/v2/${process.env.NEXT_PUBLIC_ALCHEMY_API_KEY}`,
+  2371: 'https://evm-devnet.nexis.network/',
+  1001: 'https://zkevm-testnet.nexis.network/',
 }
 
 export const EXPLORER_API_URLS: Record<Chain["id"], string> = {
@@ -28,7 +30,9 @@ export const EXPLORER_API_URLS: Record<Chain["id"], string> = {
   17000: "https://api-holesky.etherscan.io/api",
   420: "https://api-goerli.optimistic.etherscan.io/api",
   5003: "https://explorer.sepolia.mantle.xyz/api",
-  421614: "https://api-sepolia.arbiscan.io/api"
+  421614: "https://api-sepolia.arbiscan.io/api",
+  2371: 'https://evm-devnet.nexscan.io/',
+  1001: 'https://zkevm-testnet.nexscan.io/',
 }
 
 export const EXPLORER_API_KEYS: Record<Chain["id"], string> = {
@@ -39,7 +43,9 @@ export const EXPLORER_API_KEYS: Record<Chain["id"], string> = {
   17000: `${process.env.ETHEREUM_EXPLORER_API_KEY}`,
   420: `${process.env.OPTIMISM_EXPLORER_API_KEY}`,
   5003: `${process.env.MANTLE_EXPLORER_API_KEY}`,
-  421614: `${process.env.ARBITRUM_EXPLORER_API_KEY}`
+  421614: `${process.env.ARBITRUM_EXPLORER_API_KEY}`,
+  2371: `${process.env.NEXIS_DEVNET_EXPLORER_API_KEY}`,
+  1001: `${process.env.NEXIS_TESTNET_ZKEVM_EXPLORER_API_KEY}`,
 }
 
 type ExplorerDetails = {
