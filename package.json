@@ -1,6 +1,6 @@
 {
-  "name": "w3gpt",
-  "version": "0.0.2",
+  "name": "nexisgpt",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,7 +11,8 @@
     "preview": "next build && next start",
     "type-check": "tsc --noEmit",
     "format:write": "prettier --write \"{app,lib,components}/**/*.{ts,tsx,mdx}\" --cache",
-    "format:check": "prettier --check \"{app,lib,components}**/*.{ts,tsx,mdx}\" --cache"
+    "format:check": "prettier --check \"{app,lib,components}**/*.{ts,tsx,mdx}\" --cache",
+    "vercel-build": "pnpm build"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "1.0.4",
@@ -71,5 +72,9 @@
     "tailwindcss": "^3.3.5",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=16.x",
+    "pnpm": "8.x"
   }
 }
