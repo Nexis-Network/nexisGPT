@@ -24,7 +24,7 @@ NexisGPT is a chat tool that combines the power of Large Language Models (LLMs) 
 - run pnpm dev
 
 LIVE DEMO:
-Visit [https://ai.nexis.network](https://chat.nexis.network)
+Visit [https://chat.nexis.network](https://chat.nexis.network)
 
 ## Usage:
 
