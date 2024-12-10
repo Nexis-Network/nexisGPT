@@ -1,10 +1,10 @@
 # NexisGPT 🚀
 
+![image](https://raw.githubusercontent.com/Nexis-Network/nexisGPT/refs/heads/main/twitter-image.png)
+
 You can test this app live at [https://chat.nexis.network](https://chat.nexis.network) and let us know what you think! Any feedback is greatly appreciated, whether it's a bug report, a feature request, or a general comment!
 
 NexisGPT is a chat tool that combines the power of Large Language Models (LLMs) and AI Agents to revolutionize the smart contract development process. Whether you're a seasoned blockchain developer or just stepping into the world of Web3, NexisGPT is designed to streamline your development and deployment processes.
-
-![image](https://raw.githubusercontent.com/Nexis-Network/nexisGPT/refs/heads/main/twitter-image.png)
 
 ## Features 🌟
 
