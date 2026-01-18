@@ -1,6 +1,8 @@
 # NexisGPT 🚀
 
-![image](https://raw.githubusercontent.com/Nexis-Network/nexisGPT/refs/heads/main/twitter-image.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nexis-AI/branding-assets/refs/heads/main/nex_banner.png" alt="Nexis AI Banner" width="100%" />
+</div>
 
 You can test this app live at [https://chat.nexis.network](https://chat.nexis.network) and let us know what you think! Any feedback is greatly appreciated, whether it's a bug report, a feature request, or a general comment!
 
